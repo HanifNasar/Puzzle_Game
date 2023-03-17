@@ -42,7 +42,7 @@ function SignInSignupWithLocalStorage(){
         localStorage.setItem("signUp",email.current.value)
         window.location.reload()
     }else{
-        alert("Please Enter valid Credential")
+        alert("Please Enter valid details")
     }
    }
     return(
